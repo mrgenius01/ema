@@ -9,7 +9,6 @@ const nextConfig = {
     // Optionally add other settings
     swcMinify: true,  // Enable SWC minification for faster builds
   
-    // Add other configurations like i18n, images, etc., if needed
   };
   
   export default nextConfig;
