@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     // Change the build output directory
-    distDir: 'public',
+    distDir: 'dist',
   
     // Enable React Strict Mode
     reactStrictMode: true,
