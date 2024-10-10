@@ -1,11 +1,14 @@
 // src/components/Map.tsx
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { LatLngExpression } from 'leaflet';
+
 import 'leaflet/dist/leaflet.css'
 
 
 const Map = () => {
   // Harare coordinates
-  const position: [number, number] = [-17.8292, 31.0522]
+  const position: LatLngExpression = [-17.8292, 31.0522]
+  // const position: [number, number] = [-17.8292, 31.0522]
   
 
   return (
